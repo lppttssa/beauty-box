@@ -13,7 +13,7 @@ class BtnToPresents extends React.Component {
   render() {
     return (
       <div className="btn-to-presents">
-        <button className="btn-to-presents__btn btn-shop btn-reset">{this.props.text}</button>
+        <a  href="#items" className="btn-to-presents__btn btn-shop btn-reset">{this.props.text}</a>
       </div>
     );
 

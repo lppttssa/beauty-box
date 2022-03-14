@@ -69,7 +69,7 @@ class ItemsToBuy extends React.Component {
 
   render() {
     return (
-      <div className="items-to-buy">
+      <div id="items" className="items-to-buy">
         <ul className="ul-reset">
           {this.state.items.map((item, index) =>
               <ItemsToBuyBlock key={item.title}
