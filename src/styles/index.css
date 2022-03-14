@@ -1,6 +1,5 @@
 @import "App.css";
-@import "btn-white.css";
-@import "header.css";
+@import "header/header.css";
 
 @font-face {
   font-family: "Clear Sans";
@@ -12,13 +11,14 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 ::before, ::after {
   box-sizing: inherit;
 }
 
-img {
-  min-width: 100%;
-}
 
 a {
   color: inherit;
@@ -28,6 +28,11 @@ a {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.ul-reset {
+  padding: 0;
+  margin: 0;
 }
 
 .btn-reset {
@@ -43,10 +48,47 @@ a {
   margin-right: auto;
 }
 
+.container-slider {
+  max-width: 1412px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1, h2, h3, h4, h5, h6, p, span {
   font-family: "Clear Sans";
   margin: 0;
   padding: 0;
+}
+
+.title-h2 {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+.title-h2_mrgnbtm {
+  margin-bottom: 35px;
+}
+
+.description-text {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #363B3E;
+}
+
+.description-text_mrgnbtm {
+  margin-bottom: 35px;
+}
+
+.price {
+  font-size: 21px;
+  font-weight: 700;
+  color: #363B3E;
+}
+
+.price_mrgnbtm {
+  margin-bottom: 35px;
 }
 
 .title {
@@ -58,8 +100,10 @@ h1, h2, h3, h4, h5, h6, p, span {
 .btn-shop {
   font-size: 16px;
   font-weight: 400;
-  padding: 0;
   font-family: "Clear Sans";
   font-weight: 400;
   border-radius: 5px;
+  padding: 10px 37px 13px 37px;
 }
+
+

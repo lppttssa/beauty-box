@@ -1,0 +1,21 @@
+.items-to-buy-block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.items-to-buy-block_grey {
+    background-color: #F8F7F7;
+}
+
+.items-to-buy-block__item-wrap {
+    display: flex;
+}
+
+.items-to-buy-block__item-info {
+    margin-right: 126px;
+}
+
+.title-h2_lighter {
+    color: #363B3E;
+}
+

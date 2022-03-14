@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/btn-to-presents.css'
+import '../../styles/header/btn-to-presents.css'
 
 class BtnToPresents extends React.Component {
 

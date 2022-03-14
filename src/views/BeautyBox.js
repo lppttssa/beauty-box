@@ -1,5 +1,7 @@
 import React from "react";
-import Header from "../components/header";
+import Header from "../components/Header/header";
+import SectionSlider from "../components/SectionSlider/SectionSlider";
+import ItemsToBuy from "../components/ItemToBuy/itemsToBuy";
 
 class BeautyBox extends React.Component {
 
@@ -14,7 +16,8 @@ class BeautyBox extends React.Component {
     return (
       <div className="App">
         <Header/>
-
+        <SectionSlider/>
+        <ItemsToBuy/>
       </div>
   );
 
