@@ -16,9 +16,7 @@ class BtnToPresents extends React.Component {
         <a  href="#items" className="btn-to-presents__btn btn-shop btn-reset">{this.props.text}</a>
       </div>
     );
-
   }
-
 }
 
 export default BtnToPresents;

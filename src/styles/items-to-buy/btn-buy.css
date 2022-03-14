@@ -5,8 +5,21 @@
     padding-right: 50px;
 }
 
+.btn-buy_orange:active {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.btn-buy_orange:hover {
+    background-color: #F38630;
+}
+
 .btn-buy_white {
     background-color: #FFFFFF;
     border: 1px solid #F36D52;
     color: #F36D52;
+}
+
+.btn-buy_white:hover {
+    background-color: #F8F8FF;
 }

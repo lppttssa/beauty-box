@@ -105,6 +105,10 @@ h1, h2, h3, h4, h5, h6, p, span {
   font-weight: 400;
   border-radius: 5px;
   padding: 10px 37px 13px 37px;
+  transition: background-color 300ms;
 }
 
+.btn-shop:active {
+  padding: 9px 35px 11px 35px;
+}
 

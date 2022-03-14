@@ -8,3 +8,7 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+
+.btn-to-presents__btn:hover {
+    background-color: #363B3E;
+}
