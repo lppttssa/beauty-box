@@ -1,0 +1,30 @@
+.beauty-box {
+
+}
+
+.beauty-box__header {
+    padding-top: 96px;
+    padding-left: 95px;
+    padding-bottom: 96px;
+    background-image: url("D:\Front-end\job\beauty-box\public\header_background.jpg");
+    background-repeat: no-repeat;
+}
+
+.beauty-box__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.beauty-box__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #363B3E;
+    margin-bottom: 25px;
+}
+
+.beauty-box__description {
+    font-size: 21px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 83px;
+}
