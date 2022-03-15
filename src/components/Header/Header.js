@@ -1,5 +1,5 @@
 import React from "react";
-import BtnToPresents from "./btnToPresents";
+import BtnToPresents from "./BtnToPresents";
 
 class Header extends React.Component {
 

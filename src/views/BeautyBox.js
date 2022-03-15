@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../components/Header/header";
+import Header from "../components/Header/Header";
 import SectionSlider from "../components/SectionSlider/SectionSlider";
-import ItemsToBuy from "../components/ItemToBuy/itemsToBuy";
+import ItemsToBuy from "../components/ItemToBuy/ItemsToBuy";
 
 class BeautyBox extends React.Component {
 

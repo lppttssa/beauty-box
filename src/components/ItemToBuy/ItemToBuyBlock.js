@@ -1,8 +1,8 @@
 import React from "react";
-import BtnBuy from "./btnBuy";
+import BtnBuy from "./BtnBuy";
 import "../../styles/items-to-buy/items-to-buy.css"
 
-class ItemsToBuyBlock extends React.Component {
+class ItemToBuyBlock extends React.Component {
 
   constructor(props) {
     super(props);
@@ -33,4 +33,4 @@ class ItemsToBuyBlock extends React.Component {
   }
 }
 
-export default ItemsToBuyBlock;
+export default ItemToBuyBlock;

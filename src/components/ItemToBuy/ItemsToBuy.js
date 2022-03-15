@@ -1,5 +1,5 @@
 import React from "react";
-import ItemsToBuyBlock from "./itemsToBuyBlock";
+import ItemToBuyBlock from "./ItemToBuyBlock";
 import "../../styles/items-to-buy/items-to-buy.css"
 
 
@@ -72,12 +72,12 @@ class ItemsToBuy extends React.Component {
       <div id="items" className="items-to-buy">
         <ul className="ul-reset">
           {this.state.items.map((item, index) =>
-              <ItemsToBuyBlock key={item.title}
-                               title={item.title}
-                               description={item.description}
-                               price={item.price}
-                               img={item.img}
-                               isFirstColText={! (index % 2)}
+              <ItemToBuyBlock key={item.title}
+                              title={item.title}
+                              description={item.description}
+                              price={item.price}
+                              img={item.img}
+                              isFirstColText={! (index % 2)}
               />)}
         </ul>
       </div>

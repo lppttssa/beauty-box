@@ -1,0 +1,66 @@
+.slider-item {
+    border: 1px solid #E8E9ED;
+    padding: 55px 30px 22px;
+}
+
+.slider-item__img {
+    margin-bottom: 64px;
+}
+
+.slider-item__title {
+    margin-bottom: 17px;
+}
+
+.slider-item__price {
+    margin-bottom: 15px;
+}
+
+.slider-item__text-container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-item__btn-container {
+    display: flex;
+}
+
+.slider-item__like {
+    margin-left: auto;
+}
+
+.swiper-button-prev {
+    border: 2px solid #E8E9ED;
+    padding: 17px 26px;
+    border-radius: 500px;
+    background-image: url("D:\Front-end\job\beauty-box\public\arrow-left.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 46% !important;
+    transition: border-color 300ms;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    border: 2px solid #F36D52;
+    fill: #F36D52;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.swiper-button-next{
+    border: 2px solid #E8E9ED;
+    padding: 17px 26px;
+    border-radius: 500px;
+    background-image: url("D:\Front-end\job\beauty-box\public\arrow-left.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+    top: 46% !important;
+    transition: border-color 300ms;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
