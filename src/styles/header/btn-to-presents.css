@@ -12,3 +12,30 @@
 .btn-to-presents__btn:hover {
     background-color: #363B3E;
 }
+
+@media (max-width: 930px) {
+    .btn-to-presents__btn {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 612px) {
+    .btn-to-presents__btn {
+        font-size: 10px;
+        padding: 8px 25px 10px;
+    }
+}
+
+@media (max-width: 490px) {
+    .btn-to-presents__btn {
+        font-size: 8px;
+        padding: 6px 15px 8px;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn-to-presents__btn {
+        font-size: 8px;
+        padding: 4px 10px 6px;
+    }
+}

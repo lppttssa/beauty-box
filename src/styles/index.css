@@ -44,6 +44,14 @@ a {
 }
 
 .container {
+  max-width: 1086px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container_no-paddings {
   max-width: 1126px;
   margin-left: auto;
   margin-right: auto;
@@ -92,12 +100,6 @@ h1, h2, h3, h4, h5, h6, p, span {
   margin-bottom: 35px;
 }
 
-.title {
-  font-size: 700px;
-  font-weight: bold;
-  line-height: 52px;
-}
-
 .btn-shop {
   font-size: 16px;
   font-weight: 400;
@@ -107,6 +109,30 @@ h1, h2, h3, h4, h5, h6, p, span {
   padding: 10px 37px 13px 37px;
   transition: background-color 300ms;
 }
+
+@media (max-width: 430px) {
+  .title-h2 {
+    font-size: 30px;
+  }
+  .description-text {
+    font-size: 13px;
+  }
+  .price {
+    font-size: 17px;
+  }
+  .btn-shop {
+    font-size: 13px;
+    padding: 9px 17px 9px 17px;
+  }
+}
+
+.title {
+  font-size: 700px;
+  font-weight: bold;
+  line-height: 52px;
+}
+
+
 
 .btn-shop:active {
   padding: 9px 35px 11px 35px;

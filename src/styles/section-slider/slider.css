@@ -1,0 +1,41 @@
+.swiper-button-prev {
+    border: 2px solid #E8E9ED;
+    padding: 17px 26px;
+    border-radius: 500px;
+    background-image: url("D:\Front-end\job\beauty-box\public\arrow-left.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 46% !important;
+    transition: border-color 300ms;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    border: 2px solid #F36D52;
+    fill: #F36D52;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.swiper-button-next{
+    border: 2px solid #E8E9ED;
+    padding: 17px 26px;
+    border-radius: 500px;
+    background-image: url("D:\Front-end\job\beauty-box\public\arrow-left.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+    top: 46% !important;
+    transition: border-color 300ms;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
+}

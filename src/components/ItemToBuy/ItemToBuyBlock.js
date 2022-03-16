@@ -11,14 +11,14 @@ class ItemToBuyBlock extends React.Component {
     };
   }
 
-  colText = (<div className={this.props.isFirstColText ? 'items-to-buy-block__item-info' : ''}>
+  colText = (<div className={this.props.isFirstColText ? 'items-to-buy-block_margin-right' : ''}>
     <h2 className="title-h2 title-h2_mrgnbtm title-h2_lighter">{this.props.title}</h2>
     <p className="description-text description-text_mrgnbtm">{this.props.description}</p>
     <h4 className="price price_mrgnbtm">{this.props.price}</h4>
     <BtnBuy />
   </div>)
 
-  colImg =  <img className={!this.props.isFirstColText ? 'items-to-buy-block__item-info' : ''}
+  colImg =  <img className={(!this.props.isFirstColText ? 'items-to-buy-block_margin-right' : '') + ' items-to-buy-block__img'}
                  src={this.props.img} alt={this.props.title}/>
 
   render() {

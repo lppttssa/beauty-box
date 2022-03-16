@@ -12,7 +12,7 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className="beauty-box container">
+      <div className="beauty-box container_no-paddings">
         <header className="beauty-box__header">
           <div className="beauty-box__info">
             <h1 className="beauty-box__title">Beauty Box</h1>
