@@ -2,7 +2,7 @@
     border: 2px solid #E8E9ED;
     padding: 17px 26px;
     border-radius: 500px;
-    background-image: url("D:\Front-end\job\beauty-box\public\arrow-left.svg");
+    background-image: url("../../../public/arrow-left.svg");
     background-repeat: no-repeat;
     background-position: center;
     top: 46% !important;
@@ -22,7 +22,7 @@
     border: 2px solid #E8E9ED;
     padding: 17px 26px;
     border-radius: 500px;
-    background-image: url("D:\Front-end\job\beauty-box\public\arrow-left.svg");
+    background-image: url("../../../public/arrow-left.svg");
     background-repeat: no-repeat;
     background-position: center;
     transform: rotate(180deg);
