@@ -29,3 +29,8 @@
     margin-left: auto;
 }
 
+@media (max-width: 890px) {
+    .slider-item {
+        padding: 25px 10px 22px;
+    }
+}

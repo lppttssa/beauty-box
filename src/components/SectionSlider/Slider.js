@@ -61,30 +61,60 @@ class Slider extends React.Component {
 
   render() {
     return (
-        <div className="swiper">
-          <Swiper
-              slidesPerView={4}
-              spaceBetween={19}
-              slidesPerGroup={4}
-              loop={true}
-              loopFillGroupWithBlank={false}
+      <div className="swiper">
+        <Swiper
+            breakpoints={{
+              // when window width is >= 640px
+              1416: {
+                slidesPerView: 4,
+                spaceBetween: 19
+              },
+              1135: {
+                slidesPerView: 3,
+                spaceBetween: 30
+              },
+              1024: {
+                slidesPerView: 2,
+                spaceBetween: 70,
+              },
+              890: {
+                slidesPerView: 3,
+                spaceBetween: 20
+              },
+              541: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+              },
+              100: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
 
-              navigation={true}
-              modules={[Pagination, Navigation]}
-              style={{ marginLeft: '140px', marginRight: '140px', position: 'unset'}}
-              className="mySwiper"
-          >
-            {this.state.items.map((item, index) =>
-                <SwiperSlide  key={item.title}>
-                  <SliderItem
-                      title={item.title}
-                      price={item.price}
-                      img={item.img}
-                  />
-                </SwiperSlide>
-            )}
-          </Swiper>
-        </div>
+              // when window width is >= 768px
+
+            }}
+
+            loop={true}
+            loopFillGroupWithBlank={false}
+            navigation={true}
+            pagination = {{
+              clickable: true,
+            }}
+            modules={[Pagination, Navigation]}
+            style={{ marginLeft: '140px', marginRight: '140px', marginBottom: '40px', position: 'unset'}}
+            className="mySwiper"
+        >
+          {this.state.items.map((item, index) =>
+              <SwiperSlide  key={item.title}>
+                <SliderItem
+                    title={item.title}
+                    price={item.price}
+                    img={item.img}
+                />
+              </SwiperSlide>
+          )}
+        </Swiper>
+      </div>
     );
   }
 }
