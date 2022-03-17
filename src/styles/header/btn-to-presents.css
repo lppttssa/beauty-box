@@ -29,6 +29,16 @@
 @media (max-width: 490px) {
     .btn-to-presents__btn {
         font-size: 10px;
-
     }
 }
+
+@media (max-width: 430px) {
+    .btn-to-presents__btn {
+        font-size: 10px;
+        padding: 9px 17px;
+    }
+    .btn-to-presents__btn:active {
+        padding: 8px 16px;
+    }
+}
+
