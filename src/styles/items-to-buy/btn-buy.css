@@ -18,8 +18,7 @@
     background-color: #FFFFFF;
     border: 1px solid #F36D52;
     color: #F36D52;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 9px 37px 12px;
 }
 
 .btn-buy_white:hover {
@@ -27,6 +26,5 @@
 }
 
 .btn-buy_white:active {
-    padding-left: 38px;
-    padding-right: 38px;
+    padding: 8px 34px 10px;
 }

@@ -112,7 +112,6 @@ h1, h2, h3, h4, h5, h6, p, span {
   transition: background-color 300ms;
 }
 
-
 .title {
   font-size: 700px;
   font-weight: bold;
@@ -120,7 +119,8 @@ h1, h2, h3, h4, h5, h6, p, span {
 }
 
 .btn-shop:active {
-  padding: 9px 35px 11px 35px;
+  padding: 9px 35px 11px;
+  margin-bottom: 3px;
 }
 
 @media (max-width: 360px) {
