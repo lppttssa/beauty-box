@@ -27,6 +27,18 @@
 
 .slider-item__like {
     margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.slider-item__like:hover path {
+    stroke: #DC143C;
+    cursor: pointer;
+}
+
+.slider-item__like:active path {
+    stroke: #DC143C;
+    stroke-width: 2.5;
 }
 
 @media (max-width: 890px) {

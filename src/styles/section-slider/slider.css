@@ -37,10 +37,17 @@
 .swiper-pagination-bullet {
     display: none;
 }
+.swiper-button-prev:active, .swiper-button-next:active {
+    padding: 19px 28px;
+}
+
 
 @media (max-width: 1416px) {
     .swiper-button-prev, .swiper-button-next {
         padding: 14px 23px;
+    }
+    .swiper-button-prev:active, .swiper-button-next:active {
+        padding: 15px 24px;
     }
 }
 
